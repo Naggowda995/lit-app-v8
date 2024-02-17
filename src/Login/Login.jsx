@@ -63,7 +63,9 @@ export default function Login({ handleSignup }) {
 
         }
     return (
-        <div className="Login_page">
+        <div className="bg-colour">
+
+<div className="Login_page">
             <button className="Signup_btn" onClick={() => {
                 handleSignup();
                 navigate("/signUp");
@@ -96,6 +98,8 @@ export default function Login({ handleSignup }) {
                     onClick={login}></input>
             </form>
         </div>
+        </div>
+        
 
     )
 }

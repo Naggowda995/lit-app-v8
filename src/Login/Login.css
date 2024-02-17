@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+body {
+  background-image: url('/lit-app-v8/public/image/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Numans', sans-serif;
+}
+
 .Signup_btn {
   justify-content: center;
   align-items: center;
-  margin: 5% 0 0 80%;
+  margin: 0% 0 0 80%;
   background-color: black;
   color: white;
   font-size: 1vw;
@@ -9,8 +19,8 @@
 .Login_page {
   width: 35vw;
   height: 80vh;
-  border: 2px solid;
-  border-radius: 1vw;
+  /* border: 2px solid; */
+  /* border-radius: 1vw; */
   margin: 10% 20% 10% 20%;
 }
 .form_header {
@@ -59,5 +69,5 @@
   /* margin-left: 0px; */
   padding: 0%;
   font-size: 1vw;
-  color: blue;
+  color: rgb(81, 238, 8); /* Change this to your desired color */
 }

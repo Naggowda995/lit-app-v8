@@ -1,28 +1,31 @@
-.Container{
+.Container {
     display: flex;
     flex-direction: row;
     min-width: 30%;
-    height:100vh;
-}
-.LeftContainer_header{
-    color:white;
-    font-size:2.604vw;
+    height: 100vh;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .LeftContainer_header {
+    color: white;
+    font-size: 2.604vw;
     margin: 3% 0% 0% 5%;
-}
-.logo{
+  }
+  
+  .logo {
     width: 80%;
     height: 25%;
     margin: 5% 0% 1% 10%;
-}
-.Company_name{
+  }
+  
+  .Company_name {
     color: white;
-    margin: 5% 0 0 5%
-}
-.LeftContainer{
-    background-color: black;
+    margin: 5% 0 0 5%;
+  }
+  
+  .LeftContainer {
     width: 50%;
-    /* height: 100%; */
-}
-/* .RightContainer{
-
-} */
+  }
+  
